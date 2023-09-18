@@ -1,0 +1,101 @@
+li {
+    /* background-color: ; */
+    margin: 10px;
+    display: inline-block;
+    /* padding: 10px; */
+    width: 150px;
+    height: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ametteCover {
+    background: url('../recursos/amette_este.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.inlines {
+    display: inline;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.centrado {
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenedor img {
+    width: 600px;
+    margin-right: 10px;
+}
+
+.contenedor p {
+    flex: 1;
+    font-size: x-large;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 100px;
+}
+
+h4 {
+    margin-right: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bodycontacto {
+    text-align: center;
+}
+
+.servicios3 {
+    text-align: center;
+}
+
+.divservicios {
+    text-align: center;
+}
+
+.h1rosa {
+    text-decoration-color: rgb(184, 27, 111);
+}
